@@ -1,5 +1,6 @@
 import "./homepage.scss";
 import img from "../../assets/img/hero.jpg";
+import FeaturePost from "../../components/feature-post/feature-post.component";
 const HomePage = () => {
   return (
     <div>
@@ -40,6 +41,13 @@ const HomePage = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="featured-posts no-padding-top">
+        <div class="container">
+          <FeaturePost></FeaturePost>
+          <FeaturePost reverse></FeaturePost>
+          <FeaturePost></FeaturePost>
         </div>
       </section>
     </div>
